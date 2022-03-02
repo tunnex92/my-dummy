@@ -49,6 +49,8 @@ body{
     padding-right: 50px; */
     background-color: #e2e2e2;
     /* margin: auto 20px; */
+    max-width: 100%;
+    height: auto;
 }
 .firstimage{
 margin-left: 500px;
@@ -179,6 +181,9 @@ margin-top: 20px;
     margin-left: 50px;
     box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
+img:hover {
+    transform: scaleX(-1);
+  }
 
 .why{
     margin-bottom: 30px;
